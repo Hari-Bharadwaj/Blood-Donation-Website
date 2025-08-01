@@ -1,6 +1,3 @@
-# Create the README.md content based on the previous assistant message
-
-readme_content = """
 # Blood Donation Registration & Awareness Website
 
 This is a basic web application built in ~30 minutes during a **KL University Hackathon**.  
@@ -40,12 +37,6 @@ It uses **JSP**, **HTML**, **CSS**, and simple static assets — ideal for a dem
 ├── index # Main landing page (alias/home)
 ├── Other assets # PNGs: hand, blood, donate, think
 
-yaml
-Always show details
-
-Copy code
-
----
 
 ## 🚀 How to Run
 
@@ -77,11 +68,3 @@ Feel free to fork or extend it. If you use this in a project or presentation, a 
 
 Developed by a student team at **KL University** during a campus hackathon.  
 Thanks to the organizers and mentors who supported the event.
-"""
-
-# Save it as a file
-readme_path = "/mnt/data/README_BloodDonationWebsite.md"
-with open(readme_path, "w") as f:
-    f.write(readme_content)
-
-readme_path
