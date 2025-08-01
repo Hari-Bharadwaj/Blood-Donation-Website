@@ -23,19 +23,19 @@ It uses **JSP**, **HTML**, **CSS**, and simple static assets — ideal for a dem
 ## 📁 Folder Structure
 
 .
-├── css/ # Stylesheets
-├── images/ # Images (e.g. blood.png, hand.png, think.png)
-├── WEB-INF/ # Configuration directory (JSP/WebApp structure)
-├── Apply.jsp # Blood donor registration form
-├── Check.jsp # Record validation or listing
-├── ContactMe # Contact page (static or JSP)
-├── DAO.jsp # Simulated backend logic
-├── Donate.jsp # Donation page content
-├── HOME.jsp # Homepage layout
-├── Login.jsp # Login form
-├── Register # Registration page
-├── index # Main landing page (alias/home)
-├── Other assets # PNGs: hand, blood, donate, think
+├── css/               # Stylesheets
+├── images/            # Images (e.g. blood.png, hand.png, think.png)
+├── WEB-INF/           # Configuration directory (JSP/WebApp structure)
+├── Apply.jsp          # Blood donor registration form
+├── Check.jsp          # Record validation or listing
+├── ContactMe          # Contact page (static or JSP)
+├── DAO.jsp            # Simulated backend logic
+├── Donate.jsp         # Donation page content
+├── HOME.jsp           # Homepage layout
+├── Login.jsp          # Login form
+├── Register           # Registration page
+├── index              # Main landing page (alias/home)
+├── Other assets       # PNGs: hand, blood, donate, think
 
 
 ## 🚀 How to Run
