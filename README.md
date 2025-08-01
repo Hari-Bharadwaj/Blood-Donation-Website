@@ -1,3 +1,49 @@
+# Create the README.md content based on the previous assistant message
+
+readme_content = """
+# Blood Donation Registration & Awareness Website
+
+This is a basic web application built in ~30 minutes during a **KL University Hackathon**.  
+The goal of the project is to provide a platform for users to **register as blood donors**, **learn about donation**, and **connect with recipients or organizers**.
+
+It uses **JSP**, **HTML**, **CSS**, and simple static assets — ideal for a demo or prototype of a blood donation awareness initiative.
+
+---
+
+## 🩸 Features
+
+- 🧾 **Donor Registration** via `Apply.jsp`
+- 🔍 **Donor Information Lookup / Validation** via `Check.jsp`
+- 🙋‍♂️ **User Login and Sign-up** (`Login.jsp`, `Register`)
+- 📬 **Contact Page** for queries or support
+- 💝 **Donation Page** to promote involvement
+- 📄 **Minimal DAO Logic** simulated in `DAO.jsp`
+- 🌐 **Awareness Content** and Static Pages
+- 📦 Basic file-based structure — no database integration (for simplicity)
+
+---
+
+## 📁 Folder Structure
+
+.
+├── css/ # Stylesheets
+├── images/ # Images (e.g. blood.png, hand.png, think.png)
+├── WEB-INF/ # Configuration directory (JSP/WebApp structure)
+├── Apply.jsp # Blood donor registration form
+├── Check.jsp # Record validation or listing
+├── ContactMe # Contact page (static or JSP)
+├── DAO.jsp # Simulated backend logic
+├── Donate.jsp # Donation page content
+├── HOME.jsp # Homepage layout
+├── Login.jsp # Login form
+├── Register # Registration page
+├── index # Main landing page (alias/home)
+├── Other assets # PNGs: hand, blood, donate, think
+
+yaml
+Always show details
+
+Copy code
 
 ---
 
@@ -39,4 +85,3 @@ with open(readme_path, "w") as f:
     f.write(readme_content)
 
 readme_path
-
