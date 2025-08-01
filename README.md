@@ -21,7 +21,7 @@ It uses **JSP**, **HTML**, **CSS**, and simple static assets — ideal for a dem
 ---
 
 ## 📁 Folder Structure
-
+```
 .
 ├── css/               # Stylesheets
 ├── images/            # Images (e.g. blood.png, hand.png, think.png)
@@ -37,7 +37,7 @@ It uses **JSP**, **HTML**, **CSS**, and simple static assets — ideal for a dem
 ├── index              # Main landing page (alias/home)
 ├── Other assets       # PNGs: hand, blood, donate, think
 
-
+```
 ## 🚀 How to Run
 
 > This is a JSP-based app. To run it locally:
